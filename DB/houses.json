@@ -1,0 +1,76 @@
+{
+    "houses" : [
+        {
+            "id": 1,
+            "name": "Stark",
+            "title": "Stark of Winterfell",
+            "blazon" : "A running grey direwolf, on an ice-white field",
+            "words": "Winter is Coming",
+            "seat" : "Winterfell"
+        },
+        {
+            "id": 2,
+            "name": "Targaryen",
+            "title": "Targaryen of King's Landing",
+            "blazon" : "A red three-headed dragon, breathing flame on black",
+            "words": "Fire and Blood",
+            "seat" : "Dragonstone"
+        },
+        {
+            "id": 3,
+            "name": "Lannister",
+            "title": "Lannister of Casterly Rock",
+            "blazon" : "A roaring lion, gold on crimson",
+            "words": "Winter is Coming",
+            "seat" : "Winterfell"
+        },
+        {
+            "id": 4,
+            "name": "Arryn",
+            "title": "Arryn of the Eyrie",
+            "blazon" : "A sky-blue falcon soaring against a white moon, on sky-blue",
+            "words": "As High as Honor",
+            "seat" : "Eyrie"
+        },
+        {
+            "id": 5,
+            "name": "Tully",
+            "title": "Tully of Riverrun",
+            "blazon" : "A leaping trout, silver, against a rippling blue-and-red field",
+            "words": "Family, Duty, Honor",
+            "seat" : "Riverrun"
+        },
+        {
+            "id": 6,
+            "name": "Baratheon",
+            "title": "Baratheon of Storm's End",
+            "blazon" : "A crowned stag black on a golden field",
+            "words": "Ours is the Fury",
+            "seat" : "Storm`s End"
+        },
+        {
+            "id": 7,
+            "name": "Greyjoy",
+            "title": "Greyjoy of Pyke",
+            "blazon" : "A golden kraken on black",
+            "words": "We Do Not Sow",
+            "seat" : "Pyke"
+        },
+        {
+            "id": 8,
+            "name": "Tyrell",
+            "title": "Tyrell of Highgarden",
+            "blazon" : "A golden rose on green",
+            "words": "Growing Strong",
+            "seat" : "Highgarden"
+        },
+        {
+            "id": 9,
+            "name": "Martell",
+            "title": "Martell of Sunspear",
+            "blazon" : "A red sun pierced by a golden spear on orange.",
+            "words": "Unbowed, Unbent, Unbroken",
+            "seat" : "Sandship"
+        }
+    ]
+}
