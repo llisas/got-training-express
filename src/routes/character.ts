@@ -2,7 +2,7 @@ import { Router } from "express";
 import * as characterService from "../services/characterServices";
 import { Character, NewCharacterEntry } from "../types";
 import { toNewCharacterEntry } from "../validations";
-//console.log(req.headers.authorization === '');
+
 
 export const charactersRouter = Router();
 
