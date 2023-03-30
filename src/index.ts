@@ -1,14 +1,13 @@
-import express from 'express'
+import express from "express";
+import { charactersRouter } from "./routes/character";
 
 const app = express();
+app.use(express.json());
 
 const PORT = 4000;
 
-app.get('/', (req, res) =>{
-    console.log('someone is pinging')
-    res.send('hey')
-})
+app.use("/api/characters", charactersRouter);
 
-app.listen(PORT, ()=>{
-    console.log(`Server running on port ${PORT}`)
-})
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});

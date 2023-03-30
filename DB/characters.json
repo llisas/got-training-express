@@ -1,104 +1,112 @@
-{
-    "characters" : [
-        {
-            "id": 1,
-            "firstName": "Daenerys",
-            "lastName": "Targaryen",
-            "fullName": "Daenerys Targaryen",
-            "title": "Mother of Dragons",
-            "gender" : "Female",
-            "sentence": "All men must die, but we are not men.",
-            "playedBy" : "Emilia Clarke"
-        },
-        {
-            "id": 2,
-            "firstName": "Jon",
-            "lastName": "Snow",
-            "fullName": "Jon Snow",
-            "title": "King of the North",
-            "gender" : "Male",
-            "sentence": "There is only one war that matters. The Great War. And it is here.",
-            "playedBy" : "Kit Harrington"
-        },
-        {
-            "id": 3,
-            "firstName": "Sansa",
-            "lastName": "Stark",
-            "fullName": "Sansa Stark",
-            "title": "Lady of Winterfell",
-            "gender" : "Female",
-            "sentence": "I hate the king more than any of them.",
-            "playedBy" : "Sophie Turner"
-        },
-        {
-            "id": 4,
-            "firstName": "Arya",
-            "lastName": "Stark",
-            "fullName": "Arya Stark",
-            "title": "No One",
-            "gender" : "Female",
-            "sentence": "Leave one wolf alive and the sheep are never safe.",
-            "playedBy" : "Maisie Williams"
-        },
-        {
-            "id": 5,
-            "firstName": "Samwell",
-            "lastName": "Tarly",
-            "fullName": "Samwell Tarly",
-            "title": "Maester",
-            "gender" : "Male",
-            "sentence": "I was nothing at all. And when you're nothing at all, there's no reason to be afraid.",
-            "playedBy" : "John Bradley-West"
-        },
-        {
-            "id": 6,
-            "firstName": "Jamie",
-            "lastName": "Lannister",
-            "fullName": "Jamie Lannister",
-            "title": "Kingslayer",
-            "gender" : "Male",
-            "sentence": "By what right does the wolf judge the lion?",
-            "playedBy" : "Nikolaj Coster-Waldau"
-        },
-        {
-            "id": 7,
-            "firstName": "Cersei",
-            "lastName": "Lannister",
-            "fullName": "Cersei Lannister",
-            "title": "Lady of Casterly Rock",
-            "gender" : "Female",
-            "sentence": "The only way to keep your people loyal is to make certain they fear you more than they do the enemy.",
-            "playedBy" : "Lena Headey"
-        },
-        {
-            "id": 8,
-            "firstName": "Robb",
-            "lastName": "Stark",
-            "fullName": "Robb Stark",
-            "title": "Lord of Winterfell",
-            "gender" : "Male",
-            "sentence": "I asked him, how can a man be brave if he's afraid? That is the only time a man can be brave, he told me.",
-            "playedBy" : "Richard Madden"
-        },
-        {
-            "id": 9,
-            "firstName": "Tyrion",
-            "lastName": "Lannister",
-            "fullName": "Tyrion Lannister",
-            "title": "Hand of the Queen",
-            "gender" : "Male",
-            "sentence": "Never forget what you are. The rest of the world will not. Wear it like armour, and it can never be used to hurt you.",
-            "playedBy" : "Peter Dinklage"
-        },
-        {
-            "id": 10,
-            "firstName": "Theon",
-            "lastName": "Greyjoy",
-            "fullName": "Theon Greyjoy",
-            "title": "Captain of Sea Bitch",
-            "gender" : "Male",
-            "sentence": "It's better to be cruel than weak.",
-            "playedBy" : "Alfie Allen"
-        }
-    ]
-}
+[
+  {
+    "id": 1,
+    "firstName": "Daenerys",
+    "lastName": "Targaryen",
+    "fullName": "Daenerys Targaryen",
+    "title": "Mother of Dragons",
+    "gender": "Female",
+    "house": "Targaryen",
+    "sentence": "All men must die, but we are not men.",
+    "playedBy": "Emilia Clarke"
+  },
+  {
+    "id": 2,
+    "firstName": "Jon",
+    "lastName": "Snow",
+    "fullName": "Jon Snow",
+    "title": "King of the North",
+    "gender": "Male",
+    "house": "Stark",
+    "sentence": "There is only one war that matters. The Great War. And it is here.",
+    "playedBy": "Kit Harrington"
+  },
+  {
+    "id": 3,
+    "firstName": "Sansa",
+    "lastName": "Stark",
+    "fullName": "Sansa Stark",
+    "title": "Lady of Winterfell",
+    "gender": "Female",
+    "house": "Stark",
+    "sentence": "I hate the king more than any of them.",
+    "playedBy": "Sophie Turner"
+  },
+  {
+    "id": 4,
+    "firstName": "Arya",
+    "lastName": "Stark",
+    "fullName": "Arya Stark",
+    "title": "No One",
+    "gender": "Female",
+    "house": "Stark",
+    "sentence": "Leave one wolf alive and the sheep are never safe.",
+    "playedBy": "Maisie Williams"
+  },
+  {
+    "id": 5,
+    "firstName": "Samwell",
+    "lastName": "Tarly",
+    "fullName": "Samwell Tarly",
+    "title": "Maester",
+    "gender": "Male",
+    "house": null,
+    "sentence": "I was nothing at all. And when you're nothing at all, there's no reason to be afraid.",
+    "playedBy": "John Bradley-West"
+  },
+  {
+    "id": 6,
+    "firstName": "Jamie",
+    "lastName": "Lannister",
+    "fullName": "Jamie Lannister",
+    "title": "Kingslayer",
+    "gender": "Male",
+    "house": "Lannister",
+    "sentence": "By what right does the wolf judge the lion?",
+    "playedBy": "Nikolaj Coster-Waldau"
+  },
+  {
+    "id": 7,
+    "firstName": "Cersei",
+    "lastName": "Lannister",
+    "fullName": "Cersei Lannister",
+    "title": "Lady of Casterly Rock",
+    "gender": "Female",
+    "house": "Lannister",
+    "sentence": "The only way to keep your people loyal is to make certain they fear you more than they do the enemy.",
+    "playedBy": "Lena Headey"
+  },
+  {
+    "id": 8,
+    "firstName": "Robb",
+    "lastName": "Stark",
+    "fullName": "Robb Stark",
+    "title": "Lord of Winterfell",
+    "gender": "Male",
+    "house": "Stark",
+    "sentence": "I asked him, how can a man be brave if he's afraid? That is the only time a man can be brave, he told me.",
+    "playedBy": "Richard Madden"
+  },
+  {
+    "id": 9,
+    "firstName": "Tyrion",
+    "lastName": "Lannister",
+    "fullName": "Tyrion Lannister",
+    "title": "Hand of the Queen",
+    "gender": "Male",
+    "house": "Lannister",
+    "sentence": "Never forget what you are. The rest of the world will not. Wear it like armour, and it can never be used to hurt you.",
+    "playedBy": "Peter Dinklage"
+  },
+  {
+    "id": 10,
+    "firstName": "Theon",
+    "lastName": "Greyjoy",
+    "fullName": "Theon Greyjoy",
+    "title": "Captain of Sea Bitch",
+    "gender": "Male",
+    "house": "Greyjoy",
+    "sentence": "It's better to be cruel than weak.",
+    "playedBy": "Alfie Allen"
+  }
+]
