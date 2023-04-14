@@ -3,6 +3,7 @@ import { Character, NewCharacterEntry } from "../types";
 
 const characters: Character[] = charactersData as Character[];
 
+
 export const getAllCharacters = (): Character[] => characters;
 
 export const findById = (id: Number): Character | null => {
